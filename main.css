@@ -132,3 +132,9 @@
 		width: 60%;
 	}
 }
+
+		.ui-icon-android {
+			background-position: 0 50%;
+			background-image: url(pic/android.png);
+			background-repeat: no-repeat;
+		}

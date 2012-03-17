@@ -1,5 +1,5 @@
 
-		<div class="content-secondary">
+		<div class="content-secondary" data-role="collapsible">
 			<ul data-role="listview" data-inset="true" data-theme="a" data-dividertheme="a">
 				<li data-role="list-divider">其他節目</li>
 				<li>

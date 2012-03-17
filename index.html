@@ -19,6 +19,13 @@
     ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
     var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
   })();
+  var ua = navigator.userAgent.toLowerCase();
+	$(function(){
+		var isAndroid = ua.indexOf("android") > -1; //&& ua.indexOf("mobile");
+		if(!isAndroid) {
+		  $("#android_button").remove();
+		}
+	});	
 	</script>
 </head>
 <body>
@@ -31,6 +38,8 @@
         scrolling="no" frameborder="0"
         style="border:none; width:100%; height:1.5em"></iframe>
 	<div data-role="content">
+		<a href="imarket://details?id=com.google.earth" id="android_button" data-theme="a" data-role="button" data-icon="android" data-iconpos="left">本節目單有Android版本</a>
+
 			<h2>節目單</h2>
 			<ul data-role="listview" data-inset="true" data-theme="a">
 				<li>
