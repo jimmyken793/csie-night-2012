@@ -8,22 +8,35 @@
 	<link rel="stylesheet" href="http://code.jquery.com/mobile/1.0.1/jquery.mobile-1.0.1.min.css" />
 	<script src="http://code.jquery.com/jquery-1.6.4.min.js"></script>
 	<script src="http://code.jquery.com/mobile/1.0.1/jquery.mobile-1.0.1.min.js"></script>
+	<script type="text/javascript">
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-30092797-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+	</script>
 </head>
 <body>
-<div data-role="page" class="type-home">
+<div data-role="page" class="type-home" data-theme="a">
 
 	<div data-role="header" data-position="inline">
 		<h1>CSIE 犯罪現場:活大</h1>
 	</div>
-<iframe src="https://www.facebook.com/plugins/like.php?href=https://www.facebook.com/pages/2012%E8%B3%87%E8%A8%8A%E4%B9%8B%E5%A4%9C-csie%E7%8A%AF%E7%BD%AA%E7%8F%BE%E5%A0%B4%E6%B4%BB%E5%A4%A7/148891878564782&show_faces=false"
+<iframe src="https://www.facebook.com/plugins/like.php?href=https://www.facebook.com/pages/2012%E8%B3%87%E8%A8%8A%E4%B9%8B%E5%A4%9C-csie%E7%8A%AF%E7%BD%AA%E7%8F%BE%E5%A0%B4%E6%B4%BB%E5%A4%A7/148891878564782&show_faces=false&colorscheme=dark"
         scrolling="no" frameborder="0"
         style="border:none; width:100%; height:1.5em"></iframe>
 	<div data-role="content">
 		<div class="content-primary">
 			<h2>節目表</h2>
-			<ul data-role="listview" data-inset="false" data-filter="true" data-theme="c" data-dividertheme="b">
+			<ul data-role="listview" data-inset="false" data-theme="a">
 				<li>
+					<a href="drama_cc.html">
 					<h3>串場一</h3>
+					</a>
 				</li>
 				<li>
 					<a href="band_1.html">
@@ -42,13 +55,15 @@
 					</a>
 				</li>
 				<li>
-					<a href="band_3.html">
+					<a href="band_4.html">
 						<h3>大四Band</h3>
 						<p>草履蟲與他的好朋友們</p>
 					</a>
 				</li>
 				<li>
+					<a href="drama_cc.html">
 					<h3>串場二</h3>
+					</a>
 				</li>
 				<li>
 					<a href="drama_3.html">
@@ -62,7 +77,9 @@
 					</a>
 				</li>
 				<li>
+					<a href="drama_cc.html">
 					<h3>串場三</h3>
+					</a>
 				</li>
 				<li>
 					<a href="folk_2.html">
@@ -83,7 +100,9 @@
 					</a>
 				</li>
 				<li>
+					<a href="drama_cc.html">
 					<h3>串場四</h3>
+					</a>
 				</li>
 				<li>
 					<a href="drama_1.html">
@@ -98,7 +117,9 @@
 					</a>
 				</li>
 				<li>
+					<a href="drama_cc.html">
 					<h3>串場五</h3>
+					</a>
 				</li>
 				<li>
 					<a href="dance_male.html">
@@ -119,14 +140,20 @@
 					</a>
 				</li>
 			</ul>
+			<ul data-role="listview" data-inset="true" data-theme="a" data-dividertheme="a">
+				<li data-role="list-divider">快把這個節目單傳給你附近的人吧</li>
+			</ul>
+			<div style="text-align:center">
+				<img src="http://qrcode.kaywa.com/img.php?s=6&d=http%3A%2F%2Fwww.csie.ntu.edu.tw%2F~b97013%2Fnight-2012%2Findex.html" />
+			</div>
 		</div>
 
 
 
 	</div>
 
-	<div data-role="footer" class="footer-docs" data-theme="c" >
-			<p>&copy; 2012-04 NTU CSIE Council</p>
+	<div data-role="footer" class="footer-docs" data-theme="a" >
+			<p>&copy; 2012 <a href="https://www.facebook.com/NTU.CSIE.Council">NTU CSIE Council</a></p>
 			<p>created by <a href="http://www.facebook.com/jimmyken793">jimmyken793</a></p>
 	</div>
 
