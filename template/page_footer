@@ -1,5 +1,7 @@
 
-		<div class="content-secondary" data-role="collapsible">
+		<div class="content-secondary">
+
+			<div data-role="collapsible" data-collapsed="true">
 			<ul data-role="listview" data-inset="true" data-theme="a" data-dividertheme="a">
 				<li data-role="list-divider">其他節目</li>
 				<li>
@@ -47,7 +49,7 @@
 				<li>
 					<a href="#folk_2">
 						<h3>大二民謠</h3>
-						<p>&nbsp;</p>
+						<p>我要女朋友</p>
 					</a>
 				</li>
 				<li>
@@ -97,11 +99,12 @@
 					</a>
 				</li>
 			</ul>
+			</div>
 		</div>
 	</div>
 	<div data-role="footer" class="footer-docs" data-theme="a">
 			<p><a href="#bg">2012資訊之夜幕後工作人員</a></p>
 			<p>&copy; 2012 <a href="https://www.facebook.com/NTU.CSIE.Council">NTU CSIE Council</a></p>
-			<p>created <a href="#hidden">by</a> <a href="http://www.facebook.com/jimmyken793">jimmyken793</a></p>
+			<p>created <a href="#hidden">by </a><a href="http://www.facebook.com/jimmyken793">jimmyken793</a></p>
 	</div>
 </div>
