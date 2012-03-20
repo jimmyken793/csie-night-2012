@@ -1,7 +1,9 @@
 #!/bin/bash
+cat template/header > index.html
 for filename in `ls src` 
 do
-	cat template/header > $filename
-	cat "src/"$filename >> $filename
-	cat template/footer >> $filename
+	cat template/page_header >> index.html
+	cat "src/"$filename >> index.html
+	cat template/page_footer >> index.html
 done
+cat template/footer >> index.html

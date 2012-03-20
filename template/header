@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html class="ui-mobile-rendering">
 <head>
@@ -18,7 +19,141 @@
     ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
     var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
   })();
+  var ua = navigator.userAgent.toLowerCase();
 	</script>
 </head>
 <body>
-<div data-role="page" data-theme="a">
+<div id="index" data-role="page" class="type-index" data-theme="a">
+
+	<div data-role="header" data-position="inline">
+		<h1>CSIE 犯罪現場:活大</h1>
+	</div>
+<iframe src="https://www.facebook.com/plugins/like.php?href=https://www.facebook.com/pages/2012%E8%B3%87%E8%A8%8A%E4%B9%8B%E5%A4%9C-csie%E7%8A%AF%E7%BD%AA%E7%8F%BE%E5%A0%B4%E6%B4%BB%E5%A4%A7/148891878564782&show_faces=false&colorscheme=dark"
+        scrolling="no" frameborder="0"
+        style="border:none; width:100%; height:1.5em"></iframe>
+	<div data-role="content">
+		<div class="content-primary">
+			<a href="https://play.google.com/store/apps/details?id=com.edu.ntu.csie.night" id="android_button" data-theme="a" data-role="button" data-icon="android" data-iconpos="left">本節目單有Android版本</a>
+
+			<h2>節目單</h2>
+			<ul data-role="listview" data-inset="true" data-theme="a">
+				<li>
+					<a href="http://www.youtube.com/watch?v=5zb38b0eb_8">
+						<h3>開場</h3>
+						<p>Trailer</p>
+					</a>
+				</li>
+				<li>
+					<a href="#drama_cc">
+						<h3>串場</h3>
+						<p>&nbsp;</p>
+					</a>
+				</li>
+				<li>
+					<a href="#band_1">
+						<h3>大一Band</h3>
+						<p>&nbsp;</p>
+					</a>
+				</li>
+				<li>
+					<a href="#band_2">
+						<h3>大二Band</h3>
+						<p>&nbsp;</p>
+					</a>
+				</li>
+				<li>
+					<a href="#band_3">
+						<h3>大三Band</h3>
+						<p>閉嘴！宅男</p>
+					</a>
+				</li>
+				<li>
+					<a href="#band_4">
+						<h3>大四Band</h3>
+						<p>草履蟲與他的好朋友們</p>
+					</a>
+				</li>
+				<li>
+					<a href="#drama_3">
+						<h3>大三劇</h3>
+						<p>密室殺人案件之，啊~~真是厲害阿</p>
+					</a>
+				</li>
+				<li>
+					<a href="#dance_1">
+						<h3>大一舞</h3>
+						<p>&nbsp;</p>
+					</a>
+				</li>
+				<li>
+					<a href="#folk_2">
+						<h3>大二民謠</h3>
+						<p>我要女朋友</p>
+					</a>
+				</li>
+				<li>
+					<h3>中場休息</h3>
+					<p>&nbsp;</p>
+				</li>
+				<li>
+					<a href="#folk_1">
+						<h3>大一民謠</h3>
+						<p>清澈明亮的嗓音</p>
+					</a>
+				</li>
+				<li>
+					<a href="#folk_4">
+						<h3>大四民謠</h3>
+						<p>天天吃親來，我有健康的膝蓋。</p>
+					</a>
+				</li>
+				<li>
+					<a href="#drama_1">
+						<h3>大一劇</h3>
+						<p>你不知道的牛肉麵</p>
+					</a>
+				</li>
+				<li>
+					<a href="#dance_male">
+						<h3>男舞</h3>
+						<p>windows x sex mechine x wanna do</p>
+					</a>
+				</li>
+				<li>
+					<a href="#drama_2">
+						<h3>大二劇</h3>
+						<p>Betrayal</p>
+					</a>
+				</li>
+				<li>
+					<a href="#dance_old">
+						<h3>老人舞</h3>
+						<p>我可能不會跳舞</p>
+					</a>
+				</li>
+				<li>
+					<a href="#dance_light">
+						<h3>螢光舞</h3>
+						<p>Light of Fantasy</p>
+					</a>
+				</li>
+			</ul>
+			<ul data-role="listview" data-inset="true" data-theme="a" data-dividertheme="a">
+				<li data-role="list-divider">快把這個節目單傳給你附近的人吧</li>
+			</ul>
+			<div style="text-align:center">
+				<img src="pic/qr.png" />
+			</div>
+		</div>
+		<div class="content-secondary" data-role="collapsible">
+			<img src="pic/poster.jpg" style="width:100%;"/>
+		</div>
+	</div>
+
+	<div data-role="footer" class="footer-docs" data-theme="a" >
+			<p><a href="#bg">2012資訊之夜幕後工作人員</a></p>
+			<p>&copy; 2012 <a href="https://www.facebook.com/NTU.CSIE.Council">NTU CSIE Council</a></p>
+			<p>created <a href="#hidden">by </a><a href="http://www.facebook.com/jimmyken793">jimmyken793</a></p>
+	</div>
+
+</div>
